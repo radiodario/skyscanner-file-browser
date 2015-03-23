@@ -1,0 +1,52 @@
+body {
+  font-family: Verdana, arial, helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+.tree {
+  padding-left: 1em;
+}
+
+
+div.label.selected {
+
+}
+
+span.directory + span.filename {
+  font-weight: bold;
+}
+
+
+div.label.selected span.filename {
+  background-color: blue;
+  color: white;
+  border: 1px dotted #AAA;
+}
+
+span.file,span.directory,span.filename{
+  cursor: default;
+}
+
+span.file {
+  background-image: url(./img/f.png);
+}
+
+span.directory.open {
+  width: 27px;
+  margin-left: -7px;
+  background-image: url(./img/folder.open.png);
+}
+
+span.directory {
+  background-image: url(./img/folder.png);
+}
+
+span.file,span.directory {
+  width: 20px;
+  height: 22px;
+  display: inline-block;
+}
+
+span.filename {
+  margin-left: 5px;
+}

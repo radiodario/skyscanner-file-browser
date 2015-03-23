@@ -1,0 +1,29 @@
+{
+  "name": "skyscanner-file-browser",
+  "version": "1.0.0",
+  "description": "a file browser for skyscanner's coding test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "browserify -e app/app.js -t reactify -o static/app.js -d"
+  },
+  "keywords": [
+    "file",
+    "browsing",
+    "skyscanner"
+  ],
+  "author": "dario",
+  "license": "MIT",
+  "dependencies": {
+    "browserify-middleware": "^5.0.2",
+    "ejs": "^2.3.1",
+    "express": "^4.12.3",
+    "node-jsx": "^0.12.4",
+    "react": "^0.13.1",
+    "superagent": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "reactify": "^1.1.0"
+  }
+}
